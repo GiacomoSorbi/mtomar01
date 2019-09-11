@@ -1,0 +1,31 @@
+.MainDisplay {
+  background-image: url('/Images/Landpage/mainDisplayDesktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 43rem;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1075px) {
+
+  .MainDisplay {
+    background-image: url('/Images/Landpage/mainDisplayMobile.png');
+  }
+
+}
+
+@media only screen and (max-width: 675px) {
+
+  .MainDisplay {
+    background-image: url('/Images/Landpage/mainDisplayMobile.png');
+  }
+
+}
+
+@media only screen and (max-width: 666px) {
+
+  .MainDisplay {
+    background-image: url('/Images/Landpage/mainDisplayMobileSmall.png');
+  }
+
+}

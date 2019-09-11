@@ -1,0 +1,47 @@
+.errorMainDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.errorMainDisplay img {
+  width: 42%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.errorMainDisplay p {
+  margin: 3rem 0 5rem 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  color: #666666;
+}
+
+.errorMainDisplay p a {
+  background-color: #00424A;
+  color: #fbe8d3;
+  border-radius: .15rem;
+  padding: .1rem .2rem;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px 2px #ccc;
+}
+
+.errorMainDisplay p a:hover {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 593px) {
+
+  .errorMainDisplay img {
+
+    margin-top: 2rem;
+  }
+
+  .errorMainDisplay p {
+    font-size: 1rem;
+
+  }
+
+}

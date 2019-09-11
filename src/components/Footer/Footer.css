@@ -1,0 +1,72 @@
+footer {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1rem;
+  height: 24rem;
+  width: 100%;
+  list-style-type: none;
+  background-color: #282828;
+  color: #b5b5b5;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 2rem;
+}
+
+footer a {
+  font-family: 'Avenir', sans-serif;
+  text-decoration: none;
+  color: #b5b5b5;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer div .titles {
+  font-weight: 500;
+  font-size: 1.3rem;
+  border-bottom: .2rem solid #434343;
+  margin-bottom: .9rem;
+  padding-bottom: .5rem;
+  margin-top: 3rem;
+}
+
+footer div .titles2 {
+  border-bottom: .2rem solid #434343;
+  margin-bottom: .9rem;
+  padding-bottom: .5rem;
+  margin-top: 8.69rem;
+}
+
+.contact p:nth-child(n+2) {
+  margin-bottom: .8rem;
+}
+
+footer div nav a {
+  margin-right: .8rem;
+}
+
+footer div div .follow a img {
+  width: 1.4rem;
+  margin: .7rem 1rem .7rem 0rem;
+}
+
+@media only screen and (max-width: 560px) {
+
+  .footernavlinks a{
+    margin: .2rem;
+  }
+  footer div .titles2 {
+    margin-top: 10.65rem;
+  }
+  .contact, .follow {
+    margin-left: 2rem;;
+  }
+  footer div div .follow a img {
+    width: 1.4rem;
+    margin: .1rem 1rem .7rem 0rem;
+  }
+
+}

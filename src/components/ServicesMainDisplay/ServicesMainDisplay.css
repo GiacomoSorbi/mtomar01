@@ -1,0 +1,91 @@
+.PageContainer {
+  height: 1560px;
+  margin-left: 3rem;
+}
+
+.ServicesContainer {
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 925px;
+  width: 100%
+}
+
+.ServicesContainer img {
+  width: 417px;
+  height: 334px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 417px;
+  height: 334px;
+  background-color: #fee8d0;
+}
+
+.PageContainer .ServicesContainer h2 {
+  font-size: 1.2rem;
+  padding: .5rem;
+  border-bottom: 4px solid #434343;
+  margin-bottom: 2.5rem;
+}
+
+.info img, .info .text {
+  margin: 1rem 1rem 2rem 1rem;
+  display: block !important;
+}
+
+.text h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  border-bottom: 2px solid #434343;
+  width: 15rem;
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.text p {
+  font-family: 'Avenir', sans-serif;
+  line-height: 1.6rem;
+  margin: 1.5rem;
+}
+
+.info .left p {
+  text-align: left;
+}
+
+.bottom {
+  margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 870px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ServicesContainer {
+    padding-top: 5rem;
+    height: auto;
+    width: 100%
+  }
+  .PageContainer {
+    padding-top: 0rem;
+    height: auto;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .PageContainer .ServicesContainer h2 {
+    font-size: 2rem;
+  }
+}

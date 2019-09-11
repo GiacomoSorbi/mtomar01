@@ -1,0 +1,68 @@
+.FilterBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-image: url('./background_search_desktop.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fee8d3;
+}
+
+.FilterBar-show-types ul {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #fee8d3;
+  height: 4rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.FilterBar-show-types li {
+  display: flex;
+  justify-content: center;
+  line-height: .6rem;
+  align-items: center;
+  cursor: pointer;
+  width: 9rem;
+  border-right: 2px solid #feeee0;
+  border-left: 2px solid #feeee0;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  font-size: .92rem;
+  transition: color .25s;
+}
+
+.FilterBar-show-types li:hover {
+  background-color: #e8d6c8;
+}
+
+.FilterBar-show-types li.active,
+.FilterBar-show-types li.active:hover {
+  border-bottom: .2rem solid #434343;
+}
+
+
+
+@media only screen and (max-width: 560px) {
+  .FilterBar {
+    /*background-image: url('./background_search_mobile.jpg');*/
+  }
+
+  .FilterBar-show-types ul {
+    margin: 0;
+    padding: 0;
+  }
+  .FilterBar-show-types li {
+    width: 6rem;
+    border: 1px solid #feeee0;
+  }
+}
+
+@media only screen and (max-width: 1161px) {
+  .FilterBar-show-types li  {
+    margin: 0;
+    line-height: .9rem;
+  }
+}

@@ -57,12 +57,12 @@ export class NavBarServices extends React.Component {
       </nav>
       <div className="mainLogodiv">
         <NavLink className="mainLogodiv" id="myButton" to="/home">
-        <img id="myButton" className="tectuslogo" src='./Images/Landpage/logo.png' alt='logo' />
+        <img id="myButton" className="tectuslogo" src={require('./Images/Landpage/logo.png')} alt='logo' />
     </NavLink>
       <ul className='icons'>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tectusdesign/"><img src='./Images/Landpage/facebookdark.png' alt='facebook icon' /></a></li>
-      <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/andreas-tomaras-71b01110/"><img src='./Images/Landpage/linkedindark.png' alt='linkedin icon' /></a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tectus_design/"><img src='./Images/Landpage/instagramdark.png' alt='instagram icon' /></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tectusdesign/"><img src={require('./Images/Landpage/facebookdark.png')} alt='facebook icon' /></a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/andreas-tomaras-71b01110/"><img src={require('./Images/Landpage/linkedindark.png')} alt='linkedin icon' /></a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tectus_design/"><img src={require('./Images/Landpage/instagramdark.png')} alt='instagram icon' /></a></li>
       </ul>
       </div>
     </header>

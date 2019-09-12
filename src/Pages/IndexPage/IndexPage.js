@@ -7,7 +7,7 @@ import { MainDisplay } from '../../components/MainDisplay/MainDisplay';
 import { Footer } from '../../components/Footer/Footer';
 
 const project1 = {
-  imageSrc: './Images/Landpage/maroccanResidence.png',
+  imageSrc: require('./Images/Landpage/maroccanResidence.png'),
   name: 'Maroccan Residence',
   condition: 'Completed in 2018',
   projectType: 'All Projects Latest Projects Residence',
@@ -16,7 +16,7 @@ const project1 = {
   description: 'This is a house inspired by the influence of Yves Saint Laurent to the maroccan style of nomadic living.'
 };
 const project2 = {
-  imageSrc: './Images/Landpage/dramatic.png',
+  imageSrc: require('./Images/Landpage/dramatic.png'),
   name: 'Dramatic Residence',
   condition: 'Case Study',
   projectType: 'show All Projects Featured Projects Latest Projects Residence',
@@ -25,7 +25,7 @@ const project2 = {
   description:'This is a case study on blending dramatic with modern influences.'
 };
 const project3 = {
-  imageSrc: './Images/Project Pages/Yacht/1.JPG',
+  imageSrc: require('./Images/Project Pages/Yacht/1.JPG'),
   name: 'MY I-SEA Yacht',
   condition: 'Completed in 2009',
   projectType: 'show All Projects Featured Projects Yachts',
@@ -43,7 +43,7 @@ const project4 = {
   description:'Residential design and construction in a provincial coastal area of Greece, Mani.'
 };
 const project5 = {
-  imageSrc: './Images/Landpage/minimalResidence.png',
+  imageSrc: require('./Images/Landpage/minimalResidence.png'),
   name: 'Minimal Residence',
   condition: 'Completed in 2008',
   projectType: 'All Projects Featured Projects Residence',
@@ -52,7 +52,7 @@ const project5 = {
   description:'A pool mansion designed and built in the outskirts of Athens, Greece. The inspiration of this design was based on a combination of exposed materials and modernism.'
 };
 const project6 = {
-  imageSrc: './Images/Landpage/appartment.png',
+  imageSrc: require('./Images/Landpage/appartment.png'),
   name: 'Apartment Design',
   condition: 'Completed in 2015',
   projectType: 'All Projects Residence',
@@ -61,7 +61,7 @@ const project6 = {
   description:'Appartment renovation in a semi-classical character with some influences from colonial architecture.'
 };
 const project7 = {
-  imageSrc: './Images/Landpage/WaterPark.png',
+  imageSrc: require('./Images/Landpage/WaterPark.png'),
   name: 'Water park Cafe and Venue',
   condition: 'Completed in 2015',
   projectType: 'All Projects Cafe - Bars',
@@ -70,7 +70,7 @@ const project7 = {
   description:'Design and construction project of a venue that is placed inside the largest water park in Greece.'
 };
 const project8 = {
-  imageSrc: './Images/Project Pages/jewlleryShop/kourtis_1.jpg',
+  imageSrc: require('./Images/Project Pages/jewlleryShop/kourtis_1.jpg'),
   name: 'Jewllery Shop',
   condition: 'Completed in 2012',
   projectType: 'All Projects Retail Stores',
@@ -79,7 +79,7 @@ const project8 = {
   description:'A jewllery shop that required our expertise in safety design. Minimal and reflective surfaces combined with black and white color palette.'
 };
 const project9 = {
-  imageSrc: './Images/Project Pages/barbershop/2.jpg',
+  imageSrc: require('./Images/Project Pages/barbershop/2.jpg'),
   name: 'Barber Shop',
   condition: 'Completed in 2014',
   projectType: 'All Projects Retail Stores',

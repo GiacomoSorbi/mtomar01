@@ -12,7 +12,7 @@ const project1 = {
   condition: 'Completed in 2018',
   projectType: 'All Projects Latest Projects Residence',
   location: 'Paris, France',
-  link: '/maroccanresidence.html',
+  link: '/maroccanresidence',
   description: 'This is a house inspired by the influence of Yves Saint Laurent to the maroccan style of nomadic living.'
 };
 const project2 = {
@@ -21,7 +21,7 @@ const project2 = {
   condition: 'Case Study',
   projectType: 'show All Projects Featured Projects Latest Projects Residence',
   location: 'Warsaw, Poland',
-  link: '/dramaticresidence.html',
+  link: '/dramaticresidence',
   description:'This is a case study on blending dramatic with modern influences.'
 };
 const project3 = {
@@ -30,7 +30,7 @@ const project3 = {
   condition: 'Completed in 2009',
   projectType: 'show All Projects Featured Projects Yachts',
   location: 'Salamina, Greece',
-  link: '/myiseayacht.html',
+  link: '/myiseayacht',
   description:'This project is an interior and exterior renovation of the yacht MY I-SEA that belongs to the royal family of the United Arab Emirates.'
 };
 const project4 = {
@@ -39,7 +39,7 @@ const project4 = {
   condition: 'Completed in 2019',
   projectType: 'show All Projects Featured Projects Residence',
   location: 'Mani, Greece',
-  link: '/mediterraneanresidence.html',
+  link: '/mediterraneanresidence',
   description:'Residential design and construction in a provincial coastal area of Greece, Mani.'
 };
 const project5 = {
@@ -48,7 +48,7 @@ const project5 = {
   condition: 'Completed in 2008',
   projectType: 'All Projects Featured Projects Residence',
   location: 'Chaidari, Greece',
-  link: '/minimalresidence.html',
+  link: '/minimalresidence',
   description:'A pool mansion designed and built in the outskirts of Athens, Greece. The inspiration of this design was based on a combination of exposed materials and modernism.'
 };
 const project6 = {
@@ -57,7 +57,7 @@ const project6 = {
   condition: 'Completed in 2015',
   projectType: 'All Projects Residence',
   location: 'Athens, Greece',
-  link: '/Apartmentdesign.html',
+  link: '/Apartmentdesign',
   description:'Appartment renovation in a semi-classical character with some influences from colonial architecture.'
 };
 const project7 = {
@@ -66,7 +66,7 @@ const project7 = {
   condition: 'Completed in 2015',
   projectType: 'All Projects Cafe - Bars',
   location: 'Athens, Greece',
-  link: '/waterparkcafe.html',
+  link: '/waterparkcafe',
   description:'Design and construction project of a venue that is placed inside the largest water park in Greece.'
 };
 const project8 = {
@@ -75,7 +75,7 @@ const project8 = {
   condition: 'Completed in 2012',
   projectType: 'All Projects Retail Stores',
   location: 'Athens, Greece',
-  link: '/jewlleryshop.html',
+  link: '/jewlleryshop',
   description:'A jewllery shop that required our expertise in safety design. Minimal and reflective surfaces combined with black and white color palette.'
 };
 const project9 = {
@@ -84,7 +84,7 @@ const project9 = {
   condition: 'Completed in 2014',
   projectType: 'All Projects Retail Stores',
   location: 'Athens, Greece',
-  link: '/barbershop.html',
+  link: '/barbershop',
   description:'A vintage space that has as its main goal to make the customers feel calm and refreshed. Walnut and burgundy leather helpd with the creation of the aforementioned feeling.'
 };
 

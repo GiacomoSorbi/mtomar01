@@ -21,19 +21,19 @@ class App extends React.Component {
   render() {
     return <Router>
       <Switch>
-        <Route exact path="/index.html" component={IndexPage} />
+        <Route exact path="/home" component={IndexPage} />
         <Route exact path="/" component={IndexPage} />
-        <Route exact path="/services.html" component={ServicesPage} />
-        <Route exact path="/contact.html" component={ContactPage} />
-        <Route exact path="/dramaticresidence.html" component={ProjectPageTemplate} />
-        <Route exact path="/maroccanresidence.html" component={ProjectPageMaroccanResidence} />
-        <Route exact path="/myiseayacht.html" component={ProjectPageMyisea} />
-        <Route exact path="/mediterraneanresidence.html" component={ProjectPageMediterraneanresidence} />
-        <Route exact path="/minimalresidence.html" component={ProjectPageMinimalresidence} />
-        <Route exact path="/apartmentdesign.html" component={ProjectPageApartmentdesign} />
-        <Route exact path="/waterparkcafe.html" component={ProjectPageWaterparkcafe} />
-        <Route exact path="/jewlleryshop.html" component={ProjectPageJewlleryshop} />
-        <Route exact path="/barbershop.html" component={ProjectPageBarbershop} />
+        <Route exact path="/services" component={ServicesPage} />
+        <Route exact path="/contact" component={ContactPage} />
+        <Route exact path="/dramaticresidence" component={ProjectPageTemplate} />
+        <Route exact path="/maroccanresidence" component={ProjectPageMaroccanResidence} />
+        <Route exact path="/myiseayacht" component={ProjectPageMyisea} />
+        <Route exact path="/mediterraneanresidence" component={ProjectPageMediterraneanresidence} />
+        <Route exact path="/minimalresidence" component={ProjectPageMinimalresidence} />
+        <Route exact path="/apartmentdesign" component={ProjectPageApartmentdesign} />
+        <Route exact path="/waterparkcafe" component={ProjectPageWaterparkcafe} />
+        <Route exact path="/jewlleryshop" component={ProjectPageJewlleryshop} />
+        <Route exact path="/barbershop" component={ProjectPageBarbershop} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>

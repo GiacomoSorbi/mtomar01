@@ -1,12 +1,13 @@
 import React from 'react';
 import './ProjectPageDisplay.css';
+import { Link } from 'react-router-dom';
 
 export class ProjectPageDisplayApartmentdesign extends React.Component {
   render() {
     return (
       <div id='projecttop'>
         <div className='ProjectComments'>
-         <p className="projectStart"><a href='/index.html'>{"<"}Go Back</a></p>
+         <p className="projectStart"><Link to='/home'>{"<"}Go Back</Link></p>
         <div className="projectBackg">
           <p><span className="bold">Title: </span> Apartment Design</p>
         <p><span className="bold">Condition: </span> Completed in 2015</p>
@@ -25,7 +26,7 @@ export class ProjectPageDisplayApartmentdesign extends React.Component {
           </div>
 
           <div className="ProjectPageLinks">
-          <p><a href="/index.html">{"<"}Go Back</a></p>
+          <p><Link to='/home'>{"<"}Go Back</Link></p>
         <p><a href="#projecttop">{"^"}</a></p>
           </div>
 

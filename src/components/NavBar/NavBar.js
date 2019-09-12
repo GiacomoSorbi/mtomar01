@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css';
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -21,9 +22,9 @@ export class NavBar extends React.Component {
     ];
 
     this.hrefs = {
-      'Home': './index.html',
-      'Services': './services.html',
-      'Contact': './contact.html'
+      'Home': '/home',
+      'Services': '/services',
+      'Contact': '/contact'
     }
 
   }
@@ -41,10 +42,9 @@ export class NavBar extends React.Component {
     this.setState({show: link});
   }
 
-
   renderShowOptions() {
     return this.links.map(link => {
-      return <li id='NavLink' key={link} onClick={this.handleShowChange.bind(this, link)}><a className={this.getShowClass(link)} href={'' + this.hrefs[link] + ''}>{link}</a></li>;
+      return <NavLink className={"a "+this.getShowClass(link)} to={'' + this.hrefs[link] + ''}><li id='NavLink' key={link} onClick={this.handleShowChange.bind(this, link)}>{link}</li></NavLink>;
     });
   }
 
@@ -57,7 +57,9 @@ export class NavBar extends React.Component {
         </ul>
       </nav>
       <div className="mainLogodiv">
-        <img id="myButton" onClick="location.href='http://localhost:3000/index.html';"  className="tectuslogo" src='./Images/Landpage/logo.png' alt='logo' />
+        <NavLink className="mainLogodiv" id="myButton" to="/home">
+        <img id="myButton" className="tectuslogo" src='./Images/Landpage/logo.png' alt='logo' />
+    </NavLink>
       <ul className='icons'>
         <li><a target="_blank"rel="noopener noreferrer"  href="https://www.facebook.com/tectusdesign/"><img src='./Images/Landpage/facebookdark.png' alt='facebook icon' /></a></li>
       <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/andreas-tomaras-71b01110/"><img src='./Images/Landpage/linkedindark.png' alt='linkedin icon' /></a></li>

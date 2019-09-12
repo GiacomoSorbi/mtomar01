@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -28,9 +29,9 @@ export class Footer extends React.Component {
           <div>
             <p className='titles'>Links</p>
             <nav className='footernavlinks'>
-              <a href='./home.html'>Home</a>
-              <a href='./services.html'>Services</a>
-              <a href='./contact.html'>Contact</a>
+              <NavLink to="/home">Home</NavLink>
+            <NavLink to="/services">Services</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
             </nav>
           </div>
           <div>

@@ -1,25 +1,25 @@
 .MainDisplay {
-  background-image: url('/Images/Landpage/mainDisplayDesktop.png');
+  background-image: url('./images/mainDisplayDesktop.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 43rem;
-  z-index: -1;
+  width: 100%;
 }
 
-@media only screen and (max-width: 1075px) {
+
+
+@media only screen and (max-width: 1200px) {
   .MainDisplay {
-    background-image: url('/mainDisplayDesktop.png');
+    background-image: url('./images/mainDisplayMobile.png');
   }
 }
 
 @media only screen and (max-width: 675px) {
   .MainDisplay {
-    background-image: url('/mainDisplayMobile.png');
+    background-image: url('./images/mainDisplayMobileSmall.png');
   }
 }
 
 @media only screen and (max-width: 666px) {
-  .MainDisplay {
-    background-image: url('/mainDisplayMobileSmall.png');
-  }
+
 }

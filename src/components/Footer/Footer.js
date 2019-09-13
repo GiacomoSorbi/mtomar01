@@ -35,7 +35,7 @@ export class Footer extends React.Component {
             </nav>
           </div>
           <div>
-            <p className='titles2'>©2019 Tectus Design.</p>
+            <p className='titles2 copy'>©2019 Tectus Design.</p>
             <p>Designed by Michail Tomaras</p>
           </div>
         </div>

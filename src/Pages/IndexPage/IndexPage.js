@@ -34,7 +34,7 @@ const project3 = {
   description:'This project is an interior and exterior renovation of the yacht MY I-SEA that belongs to the royal family of the United Arab Emirates.'
 };
 const project4 = {
-  imageSrc: './Images/Landpage/Mediterranean.png',
+  imageSrc: require('./Images/Landpage/Mediterranean.png'),
   name: 'Mediterranean Residence',
   condition: 'Completed in 2019',
   projectType: 'show All Projects Featured Projects Residence',

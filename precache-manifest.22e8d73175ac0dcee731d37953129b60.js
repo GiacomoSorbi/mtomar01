@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6372b4da38f98a95afcf8d7d4fe15f39",
+    "revision": "d64d9eb26b52444288de0a9be366c6b0",
     "url": "/mtomar01/index.html"
   },
   {
-    "revision": "1b295f1d237278d90cbb",
-    "url": "/mtomar01/static/css/main.5c8f156e.chunk.css"
+    "revision": "060053aa5ce9129ab563",
+    "url": "/mtomar01/static/css/main.c61c5b30.chunk.css"
   },
   {
     "revision": "b1ef7d0dbe34abea4f59",
     "url": "/mtomar01/static/js/2.228d4c01.chunk.js"
   },
   {
-    "revision": "1b295f1d237278d90cbb",
+    "revision": "060053aa5ce9129ab563",
     "url": "/mtomar01/static/js/main.6d9ef2b2.chunk.js"
   },
   {
@@ -274,10 +274,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c7d614b086994a7ff22871f7005ddf0b",
     "url": "/mtomar01/static/media/kourtis_1.c7d614b0.jpg"
-  },
-  {
-    "revision": "b9ad52296d4396dd25e0d0782fde49eb",
-    "url": "/mtomar01/static/media/mainDisplayDesktop.b9ad5229.png"
   },
   {
     "revision": "cf2abeebd4db55831fce6818ff0619e9",

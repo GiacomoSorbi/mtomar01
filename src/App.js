@@ -22,7 +22,9 @@ class App extends React.Component {
     return <Router>
       <Switch>
         <Route exact path="/home" component={IndexPage} />
+        <Route exact path="/&p=home" component={IndexPage} />
         <Route exact path="/" component={IndexPage} />
+        <Route exact path="/mtomar01/" component={IndexPage} />
         <Route exact path="/services" component={ServicesPage} />
         <Route exact path="/contact" component={ContactPage} />
         <Route exact path="/dramaticresidence" component={ProjectPageTemplate} />
